@@ -1,0 +1,134 @@
+/* Responsive */
+ 
+	/* Entre 769px y 980px */
+	@media only screen and (max-width: 980px) and (min-width: 769px) {
+		
+	}
+
+	/* Entre 481px y 768px */
+	@media only screen and (max-width: 768px) and (min-width: 481px) {
+		
+	}
+ 
+	/* Entre 320px y 480px */
+	@media only screen and (max-width: 480px) and (min-width: 320px) {
+		.Gustavo{
+			width: 100%;
+			text-align: center;
+			font-size: 13px;
+		}
+		.Titulo{
+			margin: 15px;
+		}
+		.Todo{
+			width: 100%;
+		}
+		.Cabecera-y-cuerpo{
+			width: 100%;
+			float: none;
+		}
+		.Cabecera{
+			width: 100%;
+			height: 390px;
+		}
+		.Datos-principal{
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+			float: none;
+			text-align: center;
+		}
+		.Cuerpo{
+			width: 100%;
+			height: 100%;
+			margin-bottom: 0px;
+		}
+		.Foto{
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
+		.Foto img{
+			margin-top: 10px;
+		}
+		.Lateral{
+			width: 100%;
+			height: 1510px;
+			margin: 0px;
+			padding: 0px;
+			float: none;
+		}
+		.Contenido-lateral{
+			width: 90%;
+			margin: auto;
+			margin-top: 30px;
+		}
+		.Habilidades{
+			float: none;
+			margin: auto;
+			padding: 0px;
+			width: 90%;
+		}
+		.Habilidades-idiomas{
+			width: 100%;
+			margin: 0px;
+		}
+		.Idiomas{
+			float: none;
+			margin: auto;
+			width: 90%;
+			margin-top: 30px;
+		}
+		.Experiencia{
+			width: 90%;
+			float: none;
+			margin: auto;
+			margin-top: 30px;
+		}
+		.Hobby{
+			width: 100%;
+			float: none;
+			margin: 0px;
+			padding-bottom: 25px;
+		}
+		.Hobbies{
+			float: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		.Hobbies li{
+			float: none;
+			font-size: 10px;
+			margin: 5px;
+		}
+		.Puesto{
+			width: 100%;
+			margin-top: 20px;
+			float: none;
+			text-align: left;
+		}
+		.Descripcion{
+			width: 100%;
+			float: none;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+		.Trabajo{
+			width: 100%;
+		}
+		.Dato{
+			padding: 0px;
+		}
+		.Seccion{
+			font-size: 32px;
+		}
+		.SecHab{
+			margin-top: -15px;
+		}
+		#button {
+			margin: 5px;
+			bottom: 5px;
+			right: 5px;
+		  }
+	}
+/* ------------------------- */

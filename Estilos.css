@@ -1,0 +1,209 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #839dc7;
+	font-family: 'Ubuntu', sans-serif;
+}
+.Titulo{
+	text-align: center;
+	font-weight: normal;
+	margin: 40px;
+}
+.Todo{
+	width: 950px;
+	margin: auto;
+}
+.Cabecera-y-cuerpo{
+	margin: 0;
+	position: relative;
+	float: right;
+}
+.Cabecera{
+	width: 950px;
+	background-color: #A8475F;
+	height: 243px;
+}
+.Cuerpo{
+	width: 950px;
+	height: 1285px;
+	background-color: #F1F1F1;
+	margin-bottom: 35px;
+	padding-top: 40px;
+}
+.Habilidades-idiomas{
+	margin-left: 330px;
+	margin-right: 40px;
+}
+.Habilidades{
+	width: 319px;
+	float: left;
+	margin-right: 40px;
+}
+.Idiomas{
+	width: 220px;
+	float: left;
+}
+.Porcentaje{
+	height: 5px;
+	background-color: #a8475f;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.Total{
+	width: 100%;
+	height: 5px;
+	background-color: #3E3E41;
+}
+.Experiencia{
+	width: 100%;
+	margin-right: 40px;
+	margin-top: 40px;
+	float: left;
+}
+.Hobby{
+	width: 100%;
+	margin-right: 40px;
+	margin-top: 30px;
+	float: left;
+}
+.Trabajo{
+	width: 100%;
+	margin: auto;
+}
+.Puesto{
+	width: 120px;
+	margin-right: 25px;
+	float: left;
+	text-align: right;
+	margin-top: 25px;
+}
+.Descripcion{
+	width: 435px;
+	float: left;
+	text-align: justify;
+	margin-top: 25px;
+}
+.Lateral{
+	width: 250px;
+	height: 1500px;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: #D5D5D5;
+}
+.Datos-principal{
+	width: 332px;
+	margin-left: 332px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	float: left;
+}
+.Datos-principal b{
+	font-size: 35px;
+	line-height: 1.7;
+	color: #F1F1F1; 
+	letter-spacing: 5px;
+}
+.Cabecera .Carrera{
+	color: #F1F1F1; 
+	letter-spacing: 1px; 
+	font-size: 20px; 
+	line-height: 2.75;
+}
+.Foto{
+	width: 285px;
+	float: left;
+	height: 238px;
+	text-align: center;
+}
+.Foto img{
+	height: 150px;
+	border-radius: 50%;
+	border: 6px solid #F1F1F1;
+	padding: 7px;
+	margin-top: 35px;
+}
+.Contenido-lateral{
+	width: 220px;
+	margin: auto;
+	margin-top: 30px;
+}
+.Seccion{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 27px;
+	background: -webkit-linear-gradient(#A8475F,#3E3E41);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.Subseccion{
+	font-size: 14px;
+	color: #626265;
+}
+.Dato{
+	font-size: 15px;
+	color: #3E3E41;
+}
+.Dato ul li{
+	margin-bottom: 3px;
+}
+.Anho{
+	font-size: 13px;
+	color: #707075;
+}
+.Hobby{
+	width: 100%;
+	margin: auto;
+	margin-top: 110px;
+}
+.Hobbies{
+	text-align: center;
+	margin-top: 20px;
+	padding: 0px;
+}
+.Hobbies li{
+	display: inline-block;
+	list-style: none;
+	margin: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3E3E41;
+}
+.Cursos{
+	font-size: 14px;
+	color: #626265;
+}
+
+/* INICIO | Boton subir */
+#button {
+	display: none;
+	background-color: #3E3E41;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	margin: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s;
+	z-index: 1000;
+  }
+  #button:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #button:active {
+	background-color: #555;
+  }
+
+  #button::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+  }
+/* FIN | Boton subir */
