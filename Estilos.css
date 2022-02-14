@@ -127,7 +127,7 @@ body{
 	margin-top: 30px;
 }
 .Seccion{
-	margin-top: 5px;
+	margin-top: 5px; /* Modifique de 10 a 5 para evitar descuadre */
 	margin-bottom: 10px;
 	font-size: 27px;
 	background: -webkit-linear-gradient(#A8475F,#3E3E41);
