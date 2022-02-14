@@ -56,7 +56,6 @@ body{
 }
 .Experiencia{
 	width: 100%;
-	margin-right: 40px;
 	margin-top: 40px;
 	float: left;
 }
@@ -67,20 +66,19 @@ body{
 	float: left;
 }
 .Trabajo{
-	width: 100%;
 	margin: auto;
+	padding: 0px;
 }
 .Puesto{
 	width: 120px;
 	margin-right: 25px;
 	float: left;
 	text-align: right;
-	margin-top: 25px;
+	margin-top: 20px;
 }
 .Descripcion{
 	width: 435px;
 	float: left;
-	text-align: justify;
 	margin-top: 25px;
 }
 .Lateral{
@@ -129,7 +127,7 @@ body{
 	margin-top: 30px;
 }
 .Seccion{
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 10px;
 	font-size: 27px;
 	background: -webkit-linear-gradient(#A8475F,#3E3E41);

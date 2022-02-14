@@ -125,10 +125,13 @@
 		.SecHab{
 			margin-top: -15px;
 		}
+		.Subseccion{
+			font-size: 14px;
+		}
 		#button {
 			margin: 5px;
 			bottom: 5px;
 			right: 5px;
-		  }
+		}
 	}
 /* ------------------------- */
