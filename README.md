@@ -1,5 +1,7 @@
 ## Theme Details & Demo
 
+My Resume | Gustavo Giovanny Alcantara Guerrero
+
 ## Features
 
 -  Fully Responsive
